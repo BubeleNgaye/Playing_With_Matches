@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The title of my page</title>
+
+	<style type="text/css">
+	/* CSS goes here */
+		body {
+			color: blue;
+			background-color: red;
+			font-size: 45px;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- HTML goes here -->
+	<div>
+		19
+	</div>
+</body>
+</html>
