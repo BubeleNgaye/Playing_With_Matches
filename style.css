@@ -1,0 +1,10 @@
+body {
+  color: blue;
+  background-color: red;
+  font-size: 45px;
+}
+#random{
+  border: 5px solid black;
+  width: 70px;
+  height: 70px;
+}

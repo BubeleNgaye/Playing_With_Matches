@@ -2,21 +2,28 @@
 <html>
 <head>
 	<title>The title of my page</title>
-
-	<style type="text/css">
-	/* CSS goes here */
-		body {
-			color: blue;
-			background-color: red;
-			font-size: 45px;
-		}
-
-	</style>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<!-- HTML goes here -->
-	<div>
-		19
+	<div id="random">
+
 	</div>
-</body>
+	<div id>
+		<div id="random"></div>
+		<div id="random">21</div>
+	</div>
+	<button onclick="getRandom()">Click here</button>
+
+	<script type="text/javascript">
+	/*JavaScript code goes here at the bottom*/
+		function getRandom() {
+			var x = Math.floor((Math.random() * 10) + 1);
+    document.getElementById("random").innerHTML = x;
+}
+getRandom();
+	</script>
+
+
+	</body>
 </html>
